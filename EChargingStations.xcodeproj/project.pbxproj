@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F24E17FD2E6E1EF400311E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24E17E42E6E1EF200311E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24E17EB2E6E1EF200311E80;
+			remoteInfo = EChargingStations;
+		};
+		F24E18072E6E1EF400311E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24E17E42E6E1EF200311E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24E17EB2E6E1EF200311E80;
+			remoteInfo = EChargingStations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F24E17EC2E6E1EF200311E80 /* EChargingStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EChargingStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24E17FC2E6E1EF400311E80 /* EChargingStationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EChargingStationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24E18062E6E1EF400311E80 /* EChargingStationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EChargingStationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F24E17EE2E6E1EF200311E80 /* EChargingStations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EChargingStations;
+			sourceTree = "<group>";
+		};
+		F24E17FF2E6E1EF400311E80 /* EChargingStationsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EChargingStationsTests;
+			sourceTree = "<group>";
+		};
+		F24E18092E6E1EF400311E80 /* EChargingStationsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EChargingStationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24E17E92E6E1EF200311E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E17F92E6E1EF400311E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E18032E6E1EF400311E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24E17E32E6E1EF200311E80 = {
+			isa = PBXGroup;
+			children = (
+				F24E17EE2E6E1EF200311E80 /* EChargingStations */,
+				F24E17FF2E6E1EF400311E80 /* EChargingStationsTests */,
+				F24E18092E6E1EF400311E80 /* EChargingStationsUITests */,
+				F24E17ED2E6E1EF200311E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24E17ED2E6E1EF200311E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24E17EC2E6E1EF200311E80 /* EChargingStations.app */,
+				F24E17FC2E6E1EF400311E80 /* EChargingStationsTests.xctest */,
+				F24E18062E6E1EF400311E80 /* EChargingStationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24E17EB2E6E1EF200311E80 /* EChargingStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24E18102E6E1EF400311E80 /* Build configuration list for PBXNativeTarget "EChargingStations" */;
+			buildPhases = (
+				F24E17E82E6E1EF200311E80 /* Sources */,
+				F24E17E92E6E1EF200311E80 /* Frameworks */,
+				F24E17EA2E6E1EF200311E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F24E17EE2E6E1EF200311E80 /* EChargingStations */,
+			);
+			name = EChargingStations;
+			packageProductDependencies = (
+			);
+			productName = EChargingStations;
+			productReference = F24E17EC2E6E1EF200311E80 /* EChargingStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24E17FB2E6E1EF400311E80 /* EChargingStationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24E18132E6E1EF400311E80 /* Build configuration list for PBXNativeTarget "EChargingStationsTests" */;
+			buildPhases = (
+				F24E17F82E6E1EF400311E80 /* Sources */,
+				F24E17F92E6E1EF400311E80 /* Frameworks */,
+				F24E17FA2E6E1EF400311E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24E17FE2E6E1EF400311E80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24E17FF2E6E1EF400311E80 /* EChargingStationsTests */,
+			);
+			name = EChargingStationsTests;
+			packageProductDependencies = (
+			);
+			productName = EChargingStationsTests;
+			productReference = F24E17FC2E6E1EF400311E80 /* EChargingStationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24E18052E6E1EF400311E80 /* EChargingStationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24E18162E6E1EF400311E80 /* Build configuration list for PBXNativeTarget "EChargingStationsUITests" */;
+			buildPhases = (
+				F24E18022E6E1EF400311E80 /* Sources */,
+				F24E18032E6E1EF400311E80 /* Frameworks */,
+				F24E18042E6E1EF400311E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24E18082E6E1EF400311E80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24E18092E6E1EF400311E80 /* EChargingStationsUITests */,
+			);
+			name = EChargingStationsUITests;
+			packageProductDependencies = (
+			);
+			productName = EChargingStationsUITests;
+			productReference = F24E18062E6E1EF400311E80 /* EChargingStationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24E17E42E6E1EF200311E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F24E17EB2E6E1EF200311E80 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F24E17FB2E6E1EF400311E80 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F24E17EB2E6E1EF200311E80;
+					};
+					F24E18052E6E1EF400311E80 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F24E17EB2E6E1EF200311E80;
+					};
+				};
+			};
+			buildConfigurationList = F24E17E72E6E1EF200311E80 /* Build configuration list for PBXProject "EChargingStations" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24E17E32E6E1EF200311E80;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F24E17ED2E6E1EF200311E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24E17EB2E6E1EF200311E80 /* EChargingStations */,
+				F24E17FB2E6E1EF400311E80 /* EChargingStationsTests */,
+				F24E18052E6E1EF400311E80 /* EChargingStationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24E17EA2E6E1EF200311E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E17FA2E6E1EF400311E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E18042E6E1EF400311E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24E17E82E6E1EF200311E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E17F82E6E1EF400311E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24E18022E6E1EF400311E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F24E17FE2E6E1EF400311E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24E17EB2E6E1EF200311E80 /* EChargingStations */;
+			targetProxy = F24E17FD2E6E1EF400311E80 /* PBXContainerItemProxy */;
+		};
+		F24E18082E6E1EF400311E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24E17EB2E6E1EF200311E80 /* EChargingStations */;
+			targetProxy = F24E18072E6E1EF400311E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F24E180E2E6E1EF400311E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F24E180F2E6E1EF400311E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24E18112E6E1EF400311E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EChargingStations/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z5TV3YWGB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.org.EChargingStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F24E18122E6E1EF400311E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EChargingStations/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z5TV3YWGB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.org.EChargingStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F24E18142E6E1EF400311E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z5TV3YWGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.org.EChargingStationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EChargingStations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EChargingStations";
+			};
+			name = Debug;
+		};
+		F24E18152E6E1EF400311E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z5TV3YWGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.org.EChargingStationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EChargingStations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EChargingStations";
+			};
+			name = Release;
+		};
+		F24E18172E6E1EF400311E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z5TV3YWGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.org.EChargingStationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EChargingStations;
+			};
+			name = Debug;
+		};
+		F24E18182E6E1EF400311E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z5TV3YWGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.org.EChargingStationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EChargingStations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24E17E72E6E1EF200311E80 /* Build configuration list for PBXProject "EChargingStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24E180E2E6E1EF400311E80 /* Debug */,
+				F24E180F2E6E1EF400311E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24E18102E6E1EF400311E80 /* Build configuration list for PBXNativeTarget "EChargingStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24E18112E6E1EF400311E80 /* Debug */,
+				F24E18122E6E1EF400311E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24E18132E6E1EF400311E80 /* Build configuration list for PBXNativeTarget "EChargingStationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24E18142E6E1EF400311E80 /* Debug */,
+				F24E18152E6E1EF400311E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24E18162E6E1EF400311E80 /* Build configuration list for PBXNativeTarget "EChargingStationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24E18172E6E1EF400311E80 /* Debug */,
+				F24E18182E6E1EF400311E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24E17E42E6E1EF200311E80 /* Project object */;
+}
