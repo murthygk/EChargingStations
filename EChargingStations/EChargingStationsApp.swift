@@ -11,7 +11,7 @@ import SwiftUI
 struct EChargingStationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ChargingStations()
+            ChargingStationsView()
         }
     }
 }
