@@ -1,5 +1,5 @@
 //
-//  EChargingStationsTests.swift
+//  NetworkServiceTests.swift
 //  EChargingStationsTests
 //
 //  Created by Gudipati, Krishna on 9/7/25.
@@ -8,10 +8,14 @@
 import Testing
 @testable import EChargingStations
 
-struct EChargingStationsTests {
+struct NetworkServiceTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test("HTTPResponse Error")
+    func testHTTPResponseError() async throws {
+    }
+
+    @Test("JSON Decoding tests")
+    func testJSONDecodeError() async throws {
     }
 
 }
