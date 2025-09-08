@@ -15,25 +15,50 @@ struct ChargingStation: Decodable, Hashable {
     }
     private let addressInfo: AddressInfo?
     private let connections: [Connection]?
+}
 
-    var name: String {
-        return addressInfo?.name ?? "No Name"
-    }
-
-    var address: String {
-        return addressInfo?.address ?? "No address"
-    }
+extension ChargingStation {
 
     var locationInfo: String {
         return addressInfo?.locationInfo ?? "No location info"
     }
 
-    var accessComments: String {
+    private var name: String {
+        return addressInfo?.name ?? "No Name"
+    }
+
+    private var address: String {
+        return addressInfo?.address ?? "No address"
+    }
+
+    private var accessComments: String {
         return addressInfo?.comments ?? "No Comments"
     }
 
-    var connectorType: String {
+    private var connectorType: String {
         return connections?.first?.connectorType ?? "No connector Info"
+    }
+}
+
+extension ChargingStation {
+    var stationInfo: StationInfo {
+        return StationInfo(
+            name: name,
+            address: address,
+            locationInfo: locationInfo
+        )
+    }
+
+    var stationDetialsInfo: StationDetailsInfo {
+        return StationDetailsInfo(
+            location: addressInfo?.geoLocation ?? Location(
+                latitude: 0,
+                longitude: 0
+            ),
+            connectorType: connectorType,
+            address: address,
+            accessComments: accessComments
+        )
     }
 }
 
@@ -127,15 +152,15 @@ struct Connection: Decodable, Hashable {
     enum CodingKeys: String, CodingKey {
         case id = "ID"
         case connectionTypeId = "ConnectionTypeID"
-        case connectionType
+        case connectionType = "ConnectionType"
         case reference = "Reference"
         case levelId = "LevelID"
-        case level
+        case level = "Level"
         case amps = "Amps"
         case voltage = "Voltage"
         case powerKW = "PowerKW"
         case currentTypeId = "CurrentTypeID"
-        case currentType
+        case currentType = "CurrentType"
     }
     private let id: Int?
     private let connectionTypeId: Int?
@@ -216,5 +241,12 @@ struct StationInfo {
     let name: String
     let address: String
     let locationInfo: String
+}
+
+struct StationDetailsInfo {
+    let location: Location
+    let connectorType: String
+    let address: String
+    let accessComments: String
 }
 

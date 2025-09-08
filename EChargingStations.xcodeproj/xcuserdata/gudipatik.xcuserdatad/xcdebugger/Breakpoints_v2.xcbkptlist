@@ -23,49 +23,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E328850E-121B-4D43-9E40-2F4C92A40788"
-            shouldBeEnabled = "Yes"
+            uuid = "920F9058-E00E-40FA-8CA1-B5B876127793"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EChargingStations/ChargingStations/Model/ChargingStations.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "locationInfo"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "connectorTypeInfo"
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A964B903-53C7-431C-BF2D-F557BC584B7A"
-            shouldBeEnabled = "Yes"
+            uuid = "C98077F6-FBA7-46EC-B503-F026C973FBB0"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EChargingStations/ChargingStations/Model/ChargingStations.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "locationInfo"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "connectorTypeInfo"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B8252C78-4552-468A-A4F9-4D1B65F465B1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EChargingStations/Utilities/Network/NetworkService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "fetchStations(nearBy:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

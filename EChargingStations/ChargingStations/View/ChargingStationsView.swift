@@ -12,13 +12,15 @@ struct ChargingStationsView: View {
     var body: some View {
         NavigationView {
             List(viewModel.chargingStations, id: \.self) { station in
-                NavigationLink(value: station) {
+                let stationInfo = station.stationInfo
+                NavigationLink(destination:ChargingStationDetailsView(stationDetails: station.stationDetialsInfo),
+                               label: {
                     VStack (alignment: .leading) {
-                        Text(station.name)
-                        Text(station.address)
-                        Text(station.locationInfo)
+                        Text(stationInfo.name)
+                        Text(stationInfo.address)
+                        Text(stationInfo.locationInfo)
                     }
-                }
+                })
             }
             .navigationTitle("EV Charging Stations")
         }
