@@ -11,10 +11,10 @@ import MapKit
 struct ChargingStationDetailsView: View {
     let stationDetails: StationDetailsInfo
     var body: some View {
-        Spacer()
         MapView(location: stationDetails.location)
-            .frame(width: 300, height: 250)
-        Spacer()
+            .frame( height: 250)
+            .padding()
+  
         VStack {
             Text(stationDetails.connectorType)
             Text(stationDetails.address)
