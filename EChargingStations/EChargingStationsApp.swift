@@ -11,7 +11,10 @@ import SwiftUI
 struct EChargingStationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ChargingStationsView()
+            ChargingStationsView(viewModel: ChargingStationsViewModel(locationManager: LocationManager(),
+                                                                      networkService: NetworkService()
+                                                                     )
+            )
         }
     }
 }

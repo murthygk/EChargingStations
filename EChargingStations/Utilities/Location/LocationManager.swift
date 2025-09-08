@@ -63,7 +63,3 @@ extension LocationManager: CLLocationManagerDelegate {
                         .send(completion: Subscribers.Completion.failure(.didUpdateWithInvalidLocation))
     }
 }
-
-struct ChargingStation {
-    let name:String? = "Dummy"
-}
