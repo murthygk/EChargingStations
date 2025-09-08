@@ -6,6 +6,8 @@
 //
 
 import Testing
+import Combine
+
 @testable import EChargingStations
 
 struct NetworkServiceTests {
@@ -18,4 +20,12 @@ struct NetworkServiceTests {
     func testJSONDecodeError() async throws {
     }
 
+}
+
+class LocationManagerMock: LocationManagerProtocol {
+    var locationUpdatePublisher = PassthroughSubject<Location, LocationError>()
+
+    func requestLocation() {
+
+    }
 }
