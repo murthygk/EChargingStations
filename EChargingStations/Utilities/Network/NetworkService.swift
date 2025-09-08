@@ -63,12 +63,12 @@ enum NetworkError: Error {
 }
 
 protocol NetworkServiceProtocol {
-    func fetchStations(nearBy: Location) async throws -> ChargingStations?
+    func fetchStations(nearBy: Location) async throws -> [ChargingStation]?
 }
 
 struct NetworkService: NetworkServiceProtocol {
 
-    func fetchStations(nearBy location: Location) async throws -> ChargingStations? {
+    func fetchStations(nearBy location: Location) async throws -> [ChargingStation]? {
         // example : https://api.openchargemap.io/v3/poi/?output=json&countrycode=US&maxresults=100&compact=true&verbose=false&key=8cd69854-11f0-448d-a413-bb48e6d8c3f8
         let urlString = OpenChargeMapAPI.buildUrl(latitude: location.latitude ,longitude: location.longitude)
 
@@ -81,8 +81,7 @@ struct NetworkService: NetworkServiceProtocol {
             guard let response = (response as? HTTPURLResponse), response.statusCode == 200 else {
                 throw NetworkError.responseCodeError("Error: StatusCode is not equal to 200")
             }
-            let stations = try JSONDecoder().decode([ChargingStation].self, from: data )
-            return ChargingStations(stations: stations)
+            return try JSONDecoder().decode([ChargingStation].self, from: data )
         } catch let error as DecodingError {
             throw NetworkError
                 .decodeError("Could not decode the data : \(error.localizedDescription)")

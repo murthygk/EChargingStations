@@ -13,7 +13,7 @@ class ChargingStationsViewModel: ObservableObject {
     private let networkService: NetworkServiceProtocol?
 
     var cancellables = Set<AnyCancellable>()
-    @Published var chargingStations: ChargingStations?
+    @Published var chargingStations: [ChargingStation] = []
 
     init(
         locationManager: LocationManagerProtocol?,
@@ -29,8 +29,10 @@ class ChargingStationsViewModel: ObservableObject {
                   receiveValue: { [weak self] location in
 
                 Task { @MainActor in
-                    self?.chargingStations = try await networkService?
-                        .fetchStations(nearBy: location)
+                    guard let chargingStations = try await networkService?.fetchStations(nearBy: location) else {
+                        return
+                    }
+                    self?.chargingStations = chargingStations
                 }
             }
             ).store(in: &cancellables)

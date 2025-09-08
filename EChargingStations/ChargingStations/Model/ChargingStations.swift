@@ -7,16 +7,37 @@
 
 import Foundation
 
-struct ChargingStation: Decodable {
+struct ChargingStation: Decodable, Hashable {
+    let id: UUID = UUID()
     enum CodingKeys: String, CodingKey {
         case addressInfo = "AddressInfo"
         case connections = "Connections"
     }
     private let addressInfo: AddressInfo?
     private let connections: [Connection]?
+
+    var name: String {
+        return addressInfo?.name ?? "No Name"
+    }
+
+    var address: String {
+        return addressInfo?.address ?? "No address"
+    }
+
+    var locationInfo: String {
+        return addressInfo?.locationInfo ?? "No location info"
+    }
+
+    var accessComments: String {
+        return addressInfo?.comments ?? "No Comments"
+    }
+
+    var connectorType: String {
+        return connections?.first?.connectorType ?? "No connector Info"
+    }
 }
 
-struct AddressInfo: Decodable {
+struct AddressInfo: Decodable, Hashable {
 
     enum CodingKeys: String, CodingKey {
         case id = "ID"
@@ -34,7 +55,7 @@ struct AddressInfo: Decodable {
         case email = "ContactEmail"
         case accessComments = "AccessComments"
         case url = "RelatedURL"
-        case didtance = "Distance"
+        case distance = "Distance"
         case unit = "DistanceUnit"
     }
 
@@ -53,11 +74,56 @@ struct AddressInfo: Decodable {
     private let email: String?
     private let accessComments: String?
     private let url: String?
-    private let didtance: Double?
+    private let distance: Double?
     private let unit: Int?
+
+    var name: String {
+        return title ?? "No Title"
+    }
+
+    var address: String {
+        var address: String = ""
+
+        if let address1 = addressLine1 {
+            address.append(address1)
+        }
+
+        if let address2 = addressLine2 {
+            address.append("," + address2)
+        }
+
+        if let city = city {
+            address.append("\n" + city)
+        }
+
+        if let state = state {
+            address.append("," + state)
+        }
+
+        if let zipCode = zipCode {
+            address.append("," + zipCode)
+        }
+        return address
+    }
+
+    var geoLocation: Location {
+        return Location(latitude: latitude, longitude: longitude)
+    }
+
+    var locationInfo: String {
+        guard let distance else {
+            return ""
+        }
+
+        return "Located at \(distance) miles" // Assuming miles by default
+    }
+
+    var comments: String {
+        return accessComments ?? "No Comments"
+    }
 }
 
-struct Connection: Decodable {
+struct Connection: Decodable, Hashable {
     enum CodingKeys: String, CodingKey {
         case id = "ID"
         case connectionTypeId = "ConnectionTypeID"
@@ -82,9 +148,13 @@ struct Connection: Decodable {
     private let powerKW: Double?
     private let currentTypeId: Int?
     private let currentType: CurrentType?
+
+    var connectorType: String {
+        return connectionType?.connectorTypeInfo ?? "No connector Info"
+    }
 }
 
-struct ConnectionType: Decodable {
+struct ConnectionType: Decodable, Hashable {
     enum CodingKeys: String, CodingKey {
         case type = "ConnectionType"
         case formalName = "FormalName"
@@ -99,9 +169,20 @@ struct ConnectionType: Decodable {
     private let isObsolete: Bool?
     private let id: Int?
     private let title: String?
+
+    var connectorTypeInfo: String {
+        var info = ""
+        if let title {
+            info.append(title)
+        }
+        if let formalName {
+            info.append(formalName)
+        }
+        return info
+    }
 }
 
-struct ConnectionLevel: Decodable {
+struct ConnectionLevel: Decodable, Hashable {
     enum CodingKeys: String, CodingKey {
         case comments = "Comments"
         case isFastChargeCapable = "IsFastChargeCapable"
@@ -115,7 +196,7 @@ struct ConnectionLevel: Decodable {
     private let title: String?
 }
 
-struct CurrentType: Decodable {
+struct CurrentType: Decodable, Hashable {
     enum CodingKeys: String, CodingKey {
         case description = "Description"
         case id = "ID"
@@ -130,3 +211,10 @@ struct CurrentType: Decodable {
 struct ChargingStations {
     let stations: [ChargingStation]
 }
+
+struct StationInfo {
+    let name: String
+    let address: String
+    let locationInfo: String
+}
+
