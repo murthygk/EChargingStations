@@ -23,7 +23,115 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "57064FC8-8FA6-442A-B8C2-137CB399ED28"
+            uuid = "AC9109A4-6D55-47B3-9751-217958C3B46B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EChargingStations/Utilities/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "fetchStations(nearBy:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AC9109A4-6D55-47B3-9751-217958C3B46B - f1d6d6caccd53c7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for EChargingStations.NetworkService.fetchStations(nearBy: EChargingStations.Location) async throws -&gt; Swift.Optional&lt;EChargingStations.ChargingStations&gt;"
+                  moduleName = "EChargingStations.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gudipatik/Documents/TUT/EChargingStations/EChargingStations/Utilities/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87">
+               </Location>
+               <Location
+                  uuid = "AC9109A4-6D55-47B3-9751-217958C3B46B - 47efec391ba69e7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for EChargingStations.NetworkService.fetchStations(nearBy: EChargingStations.Location) async throws -&gt; Swift.Optional&lt;EChargingStations.ChargingStations&gt;"
+                  moduleName = "EChargingStations.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gudipatik/Documents/TUT/EChargingStations/EChargingStations/Utilities/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4D6ED51-E743-4E4B-9B57-48447081749F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EChargingStations/Utilities/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "fetchStations(nearBy:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4D6ED51-E743-4E4B-9B57-48447081749F - f1d6d6caccd53c18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for EChargingStations.NetworkService.fetchStations(nearBy: EChargingStations.Location) async throws -&gt; Swift.Optional&lt;EChargingStations.ChargingStations&gt;"
+                  moduleName = "EChargingStations.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gudipatik/Documents/TUT/EChargingStations/EChargingStations/Utilities/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90">
+               </Location>
+               <Location
+                  uuid = "D4D6ED51-E743-4E4B-9B57-48447081749F - 47efec391ba69e19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for EChargingStations.NetworkService.fetchStations(nearBy: EChargingStations.Location) async throws -&gt; Swift.Optional&lt;EChargingStations.ChargingStations&gt;"
+                  moduleName = "EChargingStations.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gudipatik/Documents/TUT/EChargingStations/EChargingStations/Utilities/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4E64741-C533-4A1E-8EFE-3D124F40EBE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EChargingStations/Utilities/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "fetchStations(nearBy:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "876784C4-1A5E-48E8-934D-B73835A3A0FC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -34,36 +142,6 @@
             endingLineNumber = "85"
             landmarkName = "fetchStations(nearBy:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "57064FC8-8FA6-442A-B8C2-137CB399ED28 - f1d6d6caccd53dbd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for EChargingStations.NetworkService.fetchStations(nearBy: EChargingStations.Location) async throws -&gt; Swift.Optional&lt;EChargingStations.ChargingStations&gt;"
-                  moduleName = "EChargingStations.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gudipatik/Documents/TUT/EChargingStations/EChargingStations/Utilities/Network/NetworkService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85">
-               </Location>
-               <Location
-                  uuid = "57064FC8-8FA6-442A-B8C2-137CB399ED28 - 47efec391ba69fbc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for EChargingStations.NetworkService.fetchStations(nearBy: EChargingStations.Location) async throws -&gt; Swift.Optional&lt;EChargingStations.ChargingStations&gt;"
-                  moduleName = "EChargingStations.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gudipatik/Documents/TUT/EChargingStations/EChargingStations/Utilities/Network/NetworkService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
